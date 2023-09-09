@@ -4,5 +4,8 @@ node_modules
 /build
 /public/build
 .env
+.env.development.local
 
 prisma/dev.db
+
+.vercel
