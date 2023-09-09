@@ -1,7 +1,7 @@
 import type {
   LinksFunction,
   V2_MetaFunction as MetaFunction,
-} from "@remix-run/node";
+} from "@vercel/remix";
 import {
   isRouteErrorResponse,
   Links,

@@ -4,7 +4,7 @@ import {
   type LoaderArgs,
   redirect,
   type V2_MetaFunction as MetaFunction,
-} from "@remix-run/node";
+} from "@vercel/remix";
 import {
   isRouteErrorResponse,
   useLoaderData,

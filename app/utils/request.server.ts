@@ -1,4 +1,4 @@
-import { json } from "@remix-run/node";
+import { json } from "@vercel/remix";
 
 /**
  * This helper function helps us to return the accurate HTTP status,

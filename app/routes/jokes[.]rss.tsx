@@ -1,4 +1,4 @@
-import type { LoaderArgs } from "@remix-run/node";
+import type { LoaderArgs } from "@vercel/remix";
 
 import { db } from "~/utils/db.server";
 

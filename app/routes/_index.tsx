@@ -1,4 +1,4 @@
-import type { LinksFunction } from "@remix-run/node";
+import type { LinksFunction } from "@vercel/remix";
 import { Link } from "@remix-run/react";
 
 import stylesUrl from "~/styles/index.css";

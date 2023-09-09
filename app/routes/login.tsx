@@ -2,7 +2,7 @@ import type {
   ActionArgs,
   LinksFunction,
   V2_MetaFunction as MetaFunction,
-} from "@remix-run/node";
+} from "@vercel/remix";
 import { Form, Link, useActionData, useSearchParams } from "@remix-run/react";
 
 import stylesUrl from "~/styles/login.css";

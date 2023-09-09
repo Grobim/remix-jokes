@@ -3,7 +3,7 @@ import {
   type ActionArgs,
   type LoaderArgs,
   json,
-} from "@remix-run/node";
+} from "@vercel/remix";
 import {
   Form,
   Link,
