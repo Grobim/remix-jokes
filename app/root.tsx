@@ -2,6 +2,7 @@ import type {
   LinksFunction,
   V2_MetaFunction as MetaFunction,
 } from "@vercel/remix";
+import { Analytics } from "@vercel/analytics/react";
 import {
   isRouteErrorResponse,
   Links,
@@ -62,6 +63,7 @@ function Document({ children, title }: PropsWithChildren<{ title?: string }>) {
       </head>
       <body>
         {children}
+        <Analytics />
         <Scripts />
         <LiveReload />
       </body>
