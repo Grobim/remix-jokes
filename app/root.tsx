@@ -10,6 +10,7 @@ import {
   Meta,
   Outlet,
   Scripts,
+  ScrollRestoration,
   useRouteError,
 } from "@remix-run/react";
 import type { PropsWithChildren } from "react";
@@ -64,6 +65,7 @@ function Document({ children, title }: PropsWithChildren<{ title?: string }>) {
       <body>
         {children}
         <Analytics />
+        <ScrollRestoration />
         <Scripts />
         <LiveReload />
       </body>
